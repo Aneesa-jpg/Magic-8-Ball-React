@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+  width: 600px; 
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px; 
+  border: 1px dotted rgba(9,9,121,1);       
+  text-align: center; 
+  font-family: 'Helvetica Neue', arial; 
+  color:white;
+  font-weight: 100;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 44%, rgba(0,212,255,1) 100%); 
+}
+
+h1 { 
+  font-weight: 100;
+  font-size: 2.5em;
+}
+   
+.info {
+  font-size: 1.5rem;
+}
+   
+input[type=text]{
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+   border-radius: 20px;
+   border: 1px solid black;
+   width: 400px;
+   height: 30px;
+   padding: 10px;
+  }
+  
+input[type=text]:focus {
+   outline: none;
+}
+
+.eight-ball {
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+    
+.content {
+  background: white;
+  border: 1px solid #333;
+  border-radius: 50%;
+  width: 50%;
+  height: 50%;
+  margin: 25% auto;
+}
+    
+.eight {
+  font-size: 5em;
+  margin: 20% auto;
+  color: black;
+}
+    
+.answer {
+  padding:20px;
+  color: black;
+  letter-spacing: 1px;
+  font-size:20px;
+  font-weight: 700;
+}
+.error {
+  padding:20px;
+  border-radius: 50%;
+  color: red;
+  letter-spacing: 1px;
+  font-size:15px;
+  font-weight: 700;
+}
+    
+    
+
